@@ -18,6 +18,7 @@ if v:progname =~? "evim"
 endif
 
 unlet! skip_defaults_vim
+
 " Get the defaults that most users want.
 source $VIMRUNTIME/defaults.vim
 
@@ -52,6 +53,7 @@ augroup END
 if has('syntax') && has('eval')
   packadd! matchit
 endif
+
 set nobackup
 set noswapfile
 set noundofile
