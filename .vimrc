@@ -17,7 +17,7 @@ if v:progname =~? "evim"
   finish
 endif
 
-unlet! skip_defaults_vim
+unlet! skip_defaults_vim " MacBook Air M2、2022
 
 " Get the defaults that most users want.
 source $VIMRUNTIME/defaults.vim
